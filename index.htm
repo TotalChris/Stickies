@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            :root{
+                --border-color: rgba(255, 255, 255, 1)
+            }
+            body{
+                overflow: hidden;
+            }
+            #sticker{
+                cursor: grab;
+                filter: drop-shadow(1.2vh 1.2vw 0 var(--border-color))
+                        drop-shadow(-1.2vh 1.2vw 0 var(--border-color))
+                        drop-shadow(1.2vh -1.2vw 0 var(--border-color))
+                        drop-shadow(-1.2vh -1.2vw 0 var(--border-color));
+                height: 100%;
+                width: 100%;
+                -webkit-app-region: drag;
+
+            }
+        </style>
+    </head>
+    <body>
+        <img src="doge.png" id="sticker">
+    </body>
+    <script></script>
+</html>

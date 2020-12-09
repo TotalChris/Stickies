@@ -1,0 +1,15 @@
+{
+  "name": "stickies",
+  "version": "1.0.0",
+  "description": "Stickers for the other side of your laptop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.0.3"
+  }
+}
